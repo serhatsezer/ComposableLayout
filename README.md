@@ -22,6 +22,7 @@ Just drag and drop the ComposableLayout folder into your project and that's it!
 You can check example folder or directly run the xcode project!
 
 ## Contact me
+
 * Twitter: [@serhatsezer][Twitter]
 * Blog: [medium.com/@serhatsezer][Website]
 * Web site: [https://serhatsezer.com][Website]
