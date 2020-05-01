@@ -3,7 +3,6 @@ This tiny framework helps you to make complex layout with own dedicated controll
 
 ## Install
 
-
 ### CocoaPods
 
 ```ruby
@@ -20,6 +19,16 @@ Just drag and drop the ComposableLayout folder into your project and that's it!
 
 ## Example
 You can check example folder or directly run the xcode project!
+```swift
+let composableView = ComposableLayoutView(frame: view.bounds)
+composableView.embed(in: self, viewControllers: [ItemsListScrollableViewController(),
+                                                 OnboardViewController(),
+                                                 ItemsListScrollableViewController(),
+                                                 OnboardViewController(),
+                                                 ItemsListScrollableViewController(),
+                                                 OnboardViewController(),
+                                                 ItemsListScrollableViewController()])
+```
 
 ## Contact me
 
