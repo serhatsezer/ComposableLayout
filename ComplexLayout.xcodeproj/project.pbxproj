@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		0A5D2ABC2453A784000AD4EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2ABB2453A784000AD4EC /* AppDelegate.swift */; };
-		0A5D2ABE2453A784000AD4EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2ABD2453A784000AD4EC /* SceneDelegate.swift */; };
 		0A5D2AC02453A784000AD4EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2ABF2453A784000AD4EC /* ViewController.swift */; };
 		0A5D2AC32453A784000AD4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D2AC12453A784000AD4EC /* Main.storyboard */; };
 		0A5D2AC52453A787000AD4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D2AC42453A787000AD4EC /* Assets.xcassets */; };
 		0A5D2AC82453A787000AD4EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D2AC62453A787000AD4EC /* LaunchScreen.storyboard */; };
+		0A5D2AD02453B40B000AD4EC /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2ACF2453B40B000AD4EC /* UIViewController+Extensions.swift */; };
+		0A5D2AD22454725B000AD4EC /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2AD12454725B000AD4EC /* ScrollableView.swift */; };
+		0A5D2AD42454727B000AD4EC /* ItemListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2AD32454727B000AD4EC /* ItemListCollectionViewCell.swift */; };
+		0A5D2AD6245472A4000AD4EC /* ItemsListScrollableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2AD5245472A4000AD4EC /* ItemsListScrollableViewController.swift */; };
+		0A5D2AD8245472C1000AD4EC /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2AD7245472C1000AD4EC /* OnboardViewController.swift */; };
+		0AEEB0DB245CC24600527C0D /* ComposableLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEB0DA245CC24600527C0D /* ComposableLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A5D2AB82453A784000AD4EC /* ComplexLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5D2ABB2453A784000AD4EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A5D2ABD2453A784000AD4EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A5D2ABF2453A784000AD4EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A5D2AC22453A784000AD4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A5D2AC42453A787000AD4EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A5D2AC72453A787000AD4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A5D2AC92453A787000AD4EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5D2ACF2453B40B000AD4EC /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		0A5D2AD12454725B000AD4EC /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		0A5D2AD32454727B000AD4EC /* ItemListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5D2AD5245472A4000AD4EC /* ItemsListScrollableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListScrollableViewController.swift; sourceTree = "<group>"; };
+		0A5D2AD7245472C1000AD4EC /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		0AEEB0DA245CC24600527C0D /* ComposableLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		0A5D2ABA2453A784000AD4EC /* ComplexLayout */ = {
 			isa = PBXGroup;
 			children = (
+				0AEEB0DC245CC85D00527C0D /* ComposableLayout */,
+				0AEEB0DD245CC86B00527C0D /* Example */,
 				0A5D2ABB2453A784000AD4EC /* AppDelegate.swift */,
-				0A5D2ABD2453A784000AD4EC /* SceneDelegate.swift */,
-				0A5D2ABF2453A784000AD4EC /* ViewController.swift */,
 				0A5D2AC12453A784000AD4EC /* Main.storyboard */,
 				0A5D2AC42453A787000AD4EC /* Assets.xcassets */,
 				0A5D2AC62453A787000AD4EC /* LaunchScreen.storyboard */,
 				0A5D2AC92453A787000AD4EC /* Info.plist */,
 			);
 			path = ComplexLayout;
+			sourceTree = "<group>";
+		};
+		0A5D2AD9245472D1000AD4EC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A5D2AD5245472A4000AD4EC /* ItemsListScrollableViewController.swift */,
+				0A5D2AD7245472C1000AD4EC /* OnboardViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0A5D2ADB245472E2000AD4EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A5D2AD32454727B000AD4EC /* ItemListCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0AEEB0DC245CC85D00527C0D /* ComposableLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0A5D2ACF2453B40B000AD4EC /* UIViewController+Extensions.swift */,
+				0A5D2AD12454725B000AD4EC /* ScrollableView.swift */,
+				0AEEB0DA245CC24600527C0D /* ComposableLayoutView.swift */,
+			);
+			path = ComposableLayout;
+			sourceTree = "<group>";
+		};
+		0AEEB0DD245CC86B00527C0D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				0A5D2ABF2453A784000AD4EC /* ViewController.swift */,
+				0A5D2ADB245472E2000AD4EC /* Views */,
+				0A5D2AD9245472D1000AD4EC /* ViewControllers */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5D2AD6245472A4000AD4EC /* ItemsListScrollableViewController.swift in Sources */,
+				0A5D2AD8245472C1000AD4EC /* OnboardViewController.swift in Sources */,
+				0A5D2AD02453B40B000AD4EC /* UIViewController+Extensions.swift in Sources */,
+				0AEEB0DB245CC24600527C0D /* ComposableLayoutView.swift in Sources */,
+				0A5D2AD22454725B000AD4EC /* ScrollableView.swift in Sources */,
 				0A5D2AC02453A784000AD4EC /* ViewController.swift in Sources */,
 				0A5D2ABC2453A784000AD4EC /* AppDelegate.swift in Sources */,
-				0A5D2ABE2453A784000AD4EC /* SceneDelegate.swift in Sources */,
+				0A5D2AD42454727B000AD4EC /* ItemListCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
