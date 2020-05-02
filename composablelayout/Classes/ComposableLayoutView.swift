@@ -38,7 +38,7 @@ open class ComposableLayoutView: UIView {
         commonInit()
     }
     
-    open required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -98,6 +98,6 @@ open class ComposableLayoutView: UIView {
     }
 }
 
-open protocol HeightIdentifiableViewController {
+protocol HeightIdentifiableViewController {
     var contentHeight: Int { get }
 }
