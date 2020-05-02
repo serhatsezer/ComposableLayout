@@ -66,7 +66,7 @@
 		0A5D2ABA2453A784000AD4EC /* ComplexLayout */ = {
 			isa = PBXGroup;
 			children = (
-				0AEEB0DC245CC85D00527C0D /* ComposableLayout */,
+				0AEEB0DC245CC85D00527C0D /* Source */,
 				0AEEB0DD245CC86B00527C0D /* Example */,
 				0A5D2ABB2453A784000AD4EC /* AppDelegate.swift */,
 				0A5D2AC12453A784000AD4EC /* Main.storyboard */,
@@ -94,14 +94,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0AEEB0DC245CC85D00527C0D /* ComposableLayout */ = {
+		0AEEB0DC245CC85D00527C0D /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				0A5D2ACF2453B40B000AD4EC /* UIViewController+Extensions.swift */,
 				0A5D2AD12454725B000AD4EC /* ScrollableView.swift */,
 				0AEEB0DA245CC24600527C0D /* ComposableLayoutView.swift */,
 			);
-			path = ComposableLayout;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		0AEEB0DD245CC86B00527C0D /* Example */ = {

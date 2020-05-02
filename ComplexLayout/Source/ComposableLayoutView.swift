@@ -91,7 +91,8 @@ class ComposableLayoutView: UIView {
     
     
     var topbarHeight: Int {
-        let barHeight = embedViewController.navigationController?.navigationBar.frame.height ?? 0
+        guard let navController = embedViewController.navigationController else { return 64 }
+        let barHeight = navController.navigationBar.frame.height
         let statusFrameHeight = UIApplication.shared.statusBarFrame.size.height
         return Int(barHeight) + Int(statusFrameHeight)
     }
