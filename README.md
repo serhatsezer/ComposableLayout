@@ -1,6 +1,6 @@
 # composablelayout
 
-[![CI Status](https://img.shields.io/travis/Serhat Sezer/composablelayout.svg?style=flat)](https://travis-ci.org/Serhat Sezer/composablelayout)
+[![CI Status](https://img.shields.io/travis/serhatsezer/composablelayout.svg?style=flat)](https://travis-ci.org/serhatsezer/composablelayout)
 [![Version](https://img.shields.io/cocoapods/v/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
 [![License](https://img.shields.io/cocoapods/l/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
 [![Platform](https://img.shields.io/cocoapods/p/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
