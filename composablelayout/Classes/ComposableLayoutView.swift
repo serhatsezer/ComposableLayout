@@ -27,7 +27,7 @@ open class ComposableLayoutView: UIView {
     }
     
     
-    func embed(in viewController: UIViewController, viewControllers: [UIViewController]) {
+    open func embed(in viewController: UIViewController, viewControllers: [UIViewController]) {
         embedViewController = viewController
         embedViewController.view.addSubview(self)
         self.viewControllers = viewControllers
@@ -38,7 +38,7 @@ open class ComposableLayoutView: UIView {
         commonInit()
     }
     
-    required init?(coder: NSCoder) {
+    open required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -90,7 +90,7 @@ open class ComposableLayoutView: UIView {
     }
     
     
-    var topbarHeight: Int {
+    private var topbarHeight: Int {
         guard let navController = embedViewController.navigationController else { return 64 }
         let barHeight = navController.navigationBar.frame.height
         let statusFrameHeight = UIApplication.shared.statusBarFrame.size.height
@@ -98,6 +98,6 @@ open class ComposableLayoutView: UIView {
     }
 }
 
-protocol HeightIdentifiableViewController {
+open protocol HeightIdentifiableViewController {
     var contentHeight: Int { get }
 }
