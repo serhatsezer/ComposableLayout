@@ -1,4 +1,4 @@
-# composablelayout
+# ComposableLayout
 
 [![CI Status](https://img.shields.io/travis/serhatsezer/composablelayout.svg?style=flat)](https://travis-ci.org/serhatsezer/composablelayout)
 [![Version](https://img.shields.io/cocoapods/v/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
@@ -22,7 +22,7 @@ pod 'composablelayout'
 
 ## Author
 
-Serhat Sezer, serhat.sezer@epassi.com
+Serhat Sezer, @serhatsezer
 
 ## License
 
