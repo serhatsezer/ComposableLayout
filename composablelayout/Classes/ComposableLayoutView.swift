@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ComposableLayoutView: UIView {
+open class ComposableLayoutView: UIView {
     
     // MARK: Private members
     private var scrollView: UIScrollView = {
