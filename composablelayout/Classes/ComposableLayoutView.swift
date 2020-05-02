@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class ComposableLayoutView: UIView {
+public class ComposableLayoutView: UIView {
     
     // MARK: Private members
     private var scrollView: UIScrollView = {
@@ -26,8 +26,7 @@ open class ComposableLayoutView: UIView {
         }
     }
     
-    
-    open func embed(in viewController: UIViewController, viewControllers: [UIViewController]) {
+    public func embed(in viewController: UIViewController, viewControllers: [UIViewController]) {
         embedViewController = viewController
         embedViewController.view.addSubview(self)
         self.viewControllers = viewControllers
