@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'composablelayout'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'ComposableLayout allow you to make complex layout with their own view controllers and their lifecycles.'
   s.swift_version    = '4.2'
   s.description      = "ComposableLayout helps you to make complex layouts allow you to add any view controller inside it. ComposableLayout rely on UIScrollView and calculates own content size based on view controllers height."
