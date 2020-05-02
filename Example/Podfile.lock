@@ -1,0 +1,16 @@
+PODS:
+  - composablelayout (0.1.0)
+
+DEPENDENCIES:
+  - composablelayout (from `../`)
+
+EXTERNAL SOURCES:
+  composablelayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  composablelayout: aceb82baffea2b8777aaca0e40d663320f3d5c87
+
+PODFILE CHECKSUM: 94719961265a0d4a563e007ddeca8d444a3c5caf
+
+COCOAPODS: 1.8.4
