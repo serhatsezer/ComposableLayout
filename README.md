@@ -10,6 +10,9 @@ ComposableLayout let you to make complex layouts with their own view controllers
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+First create a ComposableLayoutView and give it a frame value where you want to add. Make sure given view controller conform `HeightIdentifiableViewController` and use `contentHeight` value to notify ComposableLayoutView its content height.
+
 ```swift
 let composableView = ComposableLayoutView(frame: view.bounds)
 composableView.embed(in: self, viewControllers: [ItemsListScrollableViewController(),
