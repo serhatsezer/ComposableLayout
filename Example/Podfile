@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'composablelayout_Example' do
+  pod 'composablelayout', :path => '../'
+
+  target 'composablelayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

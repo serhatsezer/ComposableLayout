@@ -1,0 +1,6 @@
+framework module composablelayout {
+  umbrella header "composablelayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,35 +1,29 @@
-## About ComposableLayout
-This tiny framework helps you to make complex layout with own dedicated controllers. It's inspired by Apple's ComposableLayout framework but this framework supports iOS 9+ devices.
+# ComposableLayout
 
-## Install
-
-### CocoaPods
-
-```ruby
-pod 'ComposableLayout'
-```
-
-### Carthage
-```ruby
-github "serhatsezer/ComposableLayout"
-```
-
-### Manual
-Just drag and drop the ComposableLayout folder into your project and that's it! 
+[![CI Status](https://img.shields.io/travis/serhatsezer/composablelayout.svg?style=flat)](https://travis-ci.org/serhatsezer/composablelayout)
+[![Version](https://img.shields.io/cocoapods/v/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
+[![License](https://img.shields.io/cocoapods/l/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
+[![Platform](https://img.shields.io/cocoapods/p/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
 
 ## Example
-You can check example folder or directly run the xcode project!
-```swift
-let composableView = ComposableLayoutView(frame: view.bounds)
-composableView.embed(in: self, viewControllers: [ItemsListScrollableViewController(),
-                                                 OnboardViewController(),
-                                                 ItemsListScrollableViewController(),
-                                                 OnboardViewController(),
-                                                 ItemsListScrollableViewController(),
-                                                 OnboardViewController(),
-                                                 ItemsListScrollableViewController()])
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+ComposableLayout is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'composablelayout'
 ```
 
-## Contact me
+## Author
 
-* Twitter: @serhatsezer
+Serhat Sezer, @serhatsezer
+
+## License
+
+composablelayout is available under the MIT license. See the LICENSE file for more info.
