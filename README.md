@@ -28,6 +28,7 @@ pod 'composablelayout'
 - [ ] Supporting horizontal scrolling
 - [ ] Adding Carthage support
 - [ ] Auto resizing scroll view based on content
+- [ ] Add more examples and screenshots
 
 ## Author
 
