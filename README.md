@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
 [![Platform](https://img.shields.io/cocoapods/p/composablelayout.svg?style=flat)](https://cocoapods.org/pods/composablelayout)
 
+ComposableLayout let you to make complex layouts with their own view controllers and their life cycles! It uses UIScrollView in order to make contents horizontally scrollable. 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,6 +21,13 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'composablelayout'
 ```
+
+## ToDos
+
+- [ ] Supporting removing content from the list
+- [ ] Supporting horizontal scrolling
+- [ ] Adding Carthage support
+- [ ] Auto resizing scroll view based on content
 
 ## Author
 
